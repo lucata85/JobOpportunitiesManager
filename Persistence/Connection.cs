@@ -14,7 +14,7 @@ namespace Persistence
 
         public Connection()
         {
-            _server = @"DESKTOP-35ITOJL\SQLEXPRESS";
+            _server = @"{{{server}}}";
             _database = "JobOpportunitiesManager";
         }
 
